@@ -1,0 +1,25 @@
+{
+  "name": "react-native-library-starter",
+  "version": "1.0.0",
+  "description": "Quick way to start developing React Native UI component.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native",
+    "starter",
+    "component",
+    "library",
+    "component",
+    "package",
+    "module",
+    "starter",
+    "package",
+    "starter",
+    "library",
+    "starter"
+  ],
+  "author": "Pavlo Kochubei <pavlo.kochubei@hotmail.com> (https://pavlokochubei.com/)",
+  "license": "ISC"
+}
