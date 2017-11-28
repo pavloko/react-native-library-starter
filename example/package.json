@@ -1,0 +1,31 @@
+{
+  "name": "example",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "haul": "haul start",
+    "storybook": "storybook start -p 7007 --haul webpack.haul.storybook.js --platform ios"
+  },
+  "dependencies": {
+    "react": "16.0.0",
+    "react-native": "0.50.3",
+    "react-native-library-starter": "file:../"
+  },
+  "devDependencies": {
+    "babel-jest": "21.2.0",
+    "babel-preset-react-native": "4.0.0",
+    "haul": "1.0.0-beta.10",
+    "jest": "21.2.1",
+    "react-test-renderer": "16.0.0",
+    "@storybook/react-native": "^3.2.16",
+    "@storybook/addon-actions": "^3.2.16",
+    "@storybook/addon-links": "^3.2.16",
+    "react-dom": "16.0.0",
+    "prop-types": "^15.6.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

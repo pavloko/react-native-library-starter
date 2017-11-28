@@ -11,15 +11,14 @@
     "starter",
     "component",
     "library",
-    "component",
-    "package",
-    "module",
-    "starter",
-    "package",
-    "starter",
-    "library",
-    "starter"
+    "module starter",
+    "package starter",
+    "library starter"
   ],
   "author": "Pavlo Kochubei <pavlo.kochubei@hotmail.com> (https://pavlokochubei.com/)",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "react": "16.1.1",
+    "react-native": "0.50.3"
+  }
 }
